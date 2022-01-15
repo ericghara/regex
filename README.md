@@ -8,5 +8,6 @@ A collection of regular expressions that I may or may not have spent a few minut
     <li>Text between quotes, which begin and end a line<pre>(?<=^").+(?="$)<pre></li>
     <li>Public java methods, w/o dockstrigns and annotations<pre>public.*\{[^}]*\}<pre></li>
     <li>Public java methods, w/ docstrings<pre>/[^/]*/(\n)*[^p]*public.*\{[^}]*\}<pre></li>
+    <li>Catch blocks containing the throw keyword<pre>catch[^}]*throw[^}]*}<pre></li>
     <li>Specific file extensions in a filepath<pre>(?<=^[^\.].*\.)(reg|exp|rss)$<pre></li>
 </ul>
