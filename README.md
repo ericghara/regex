@@ -10,5 +10,5 @@ A collection of regular expressions that I may or may not have spent a few minut
     <li>Public java methods, w/ docstrings<pre>/[^/]*/(\n)*[^p]*public.*\{[^}]*\}<pre></li>
     <li>Catch blocks containing the throw keyword<pre>catch[^}]*\sthrow\s[^}]*}<pre></li>
     <li>Specific file extensions in a filepath<pre>(?<=^[^\.].*\.)(reg|exp|rss)$<pre></li>
-    <li>SHA1 hash perceeded by a file path, that is a child of /aRoot/Path<pre>(?<=(/aRoot/Path/)(.*\s))[0-9a-fA-F]{40}(?=\b)<pre></li>
+    <li>SHA1 hash perceded by a file path, that is a child of /aRoot/Path<pre>(?<=(/aRoot/Path/)(.*\s))[0-9a-fA-F]{40}(?=\b)<pre></li>
 </ul>
