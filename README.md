@@ -1,8 +1,8 @@
 # regex
-A collection of regular expressions that I may or may not have spent a few minutes <i>programming</i>.
+This is just an handy place for me to paste regexes that might be useful in the future.
 
 <ul>
-    <li>A single line consisting only of q, not case sensitive<pre>^[Q|q]$<pre></li>
+    <li>A single line consisting only of q, not case sensitive 😛<pre>^[Q|q]$<pre></li>
     <li>Single line hash comment, including leading whitespace<pre>(\b|^)\s*#.*$<pre></li>
     <li>Whitespace not between quotes<pre>\s+(?=([^"]*"[^"]*")*[^"]*$)<pre></li>
     <li>Text between quotes, which begin and end a line<pre>(?<=^").+(?="$)<pre></li>
