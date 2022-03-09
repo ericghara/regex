@@ -1,5 +1,5 @@
 # regex
-This is just an handy place for me to paste regexes that might be useful in the future.
+This is just an handy place for me to archive regexes I <em>programmed</em>, that might be useful in the future.
 
 <ul>
     <li>A single line consisting only of q, not case sensitive 😛<pre>^[Q|q]$<pre></li>
